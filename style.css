@@ -1,0 +1,143 @@
+.theme_page {
+    color: #333333;
+    background-color: #ffffff;
+    font-family: novel-sans-hair-2,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.theme_element_backgroundcolor {
+    padding-bottom: 40px;
+}
+
+.article_header {
+    background-color: #a65b3a;
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+    text-decoration: none;
+    height: 2.0rem;
+    width: 30.0rem;
+    border: 5px solid white;
+    text-align: left;
+    font-size: 25px;
+    font-family: capitol, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.article_header:hover {
+    background-color: #5b502a;
+    border: 5px solid white;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: flex-end;
+
+}
+
+.wrapper {
+    border: 20px
+}
+
+.nav {
+    background-color: #8d9395;
+}
+
+.page_header{
+    margin: 15px 0px;
+}
+
+.page_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_element{
+    text-decoration: none;
+    background-color: #8d9395;
+    color: #ffffff;
+    float: right;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 4px;
+}
+
+.nav_element:hover {
+    opacity: 0.7;
+    background-color: #8d9395;
+    border: none;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: flex-end;
+    
+}
+
+.photo {
+    position: absolute;
+    z-index: -1;
+    border-left: 25px;
+    float: left;
+}
+.container {
+    display: flex;
+    gap: 20px 10px;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    left: 625px;
+    float: left;
+}
+  
+  
+  html, body , .container {
+    height: 100%;
+    margin: 15px;
+  }
+
+.article_title {
+    border: 15px;
+    font-family: capitol,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #5b502a;
+}    
+    
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* responsive layout*/
+@media screen and (max-width: 850px) {
+    .column {
+        width: 35%}
+    }
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%}
+    }
